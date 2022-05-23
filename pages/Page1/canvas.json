@@ -143,10 +143,10 @@
                   "enableSort": true,
                   "isVisible": false,
                   "isDisabled": false,
-                  "isCellVisible": false,
+                  "isCellVisible": true,
                   "isDerived": false,
-                  "label": "b",
-                  "computedValue": "{{Studenti.sanitizedTableData.map((currentRow) => ( currentRow.fields))}}"
+                  "label": "Vystupy",
+                  "computedValue": "{{Studenti.sanitizedTableData.map((currentRow) => ( currentRow.fields.Vystupy))}}"
                 }
               },
               "delimiter": ",",
