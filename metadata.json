@@ -1,0 +1,21 @@
+{
+  "clientSchemaVersion": 1,
+  "serverSchemaVersion": 4,
+  "pageOrder": [
+    "Page1"
+  ],
+  "publishedPageOrder": [
+    "Page1"
+  ],
+  "publishedDefaultPageName": "Page1",
+  "unpublishedDefaultPageName": "Page1",
+  "invisibleActionFields": {
+    "Page1_Api1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    }
+  },
+  "publishedLayoutmongoEscapedWidgets": {},
+  "unpublishedLayoutmongoEscapedWidgets": {},
+  "fileFormatVersion": 2
+}
