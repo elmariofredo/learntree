@@ -28,7 +28,7 @@
           "children": [
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "Table1",
+              "widgetName": "Studenti",
               "defaultPageSize": 0,
               "columnOrder": [
                 "id",
@@ -111,7 +111,7 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "Jmeno",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.fields.Name))}}",
+                  "computedValue": "{{Studenti.sanitizedTableData.map((currentRow) => ( currentRow.fields.Name))}}",
                   "iconName": ""
                 },
                 "createdTime": {
@@ -129,7 +129,7 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "Poznamky",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.fields.Notes))}}"
+                  "computedValue": "{{Studenti.sanitizedTableData.map((currentRow) => ( currentRow.fields.Notes))}}"
                 },
                 "fields": {
                   "index": 2,
@@ -146,7 +146,7 @@
                   "isCellVisible": false,
                   "isDerived": false,
                   "label": "b",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.fields))}}"
+                  "computedValue": "{{Studenti.sanitizedTableData.map((currentRow) => ( currentRow.fields))}}"
                 }
               },
               "delimiter": ",",
@@ -212,7 +212,7 @@
         ],
         "widgetNames": [
           "MainContainer",
-          "Table1"
+          "Studenti"
         ],
         "validOnPageLoadActions": true,
         "id": "Page1",
